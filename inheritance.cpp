@@ -1,5 +1,8 @@
+//this is to understand single inheritance concept
+
 #include<iostream>
 using namespace std;
+//Class A
 class A{
     protected:
    int a;
@@ -12,6 +15,8 @@ class A{
       cin>>b;
   }
 };
+
+//Class B where A is public of B
    class B: public A{
        private:
        int c;
