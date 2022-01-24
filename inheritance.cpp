@@ -23,8 +23,8 @@ class A{
        public:
        
        void showdata()
-       { cout<<"enter value of a "<<a<<endl;
-        cout<<"enter value of b "<<b<<endl;
+       { cout<<"value of a "<<a<<endl;
+        cout<<" value of b "<<b<<endl;
        }
        void add(){
            c=a+b;
