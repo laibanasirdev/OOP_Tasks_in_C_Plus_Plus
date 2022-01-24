@@ -41,6 +41,7 @@ int main()
 B b;
 b.setdata();
 b.showdata();
+    b.add();
     
 
 return 0;
